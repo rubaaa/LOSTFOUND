@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp_SignIn.MainActivity">
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/timg">
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".SignUp_SignIn.SignUpActivity">
+
+
+                <RelativeLayout
+                    android:id="@+id/vback"
+                    android:layout_width="match_parent"
+                    android:layout_height="295dp"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/IMAGE"
+                        android:layout_width="330dp"
+                        android:layout_height="223dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/log" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="34dp"
+                        android:paddingRight="34dp">
+
+
+
+
+
+                        <EditText
+                            android:id="@+id/editTextEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"
+                            android:paddingBottom="15dp"
+                            android:textColor="#ADCCE2"
+                            android:textColorHint="#ADCCE2"
+                            android:backgroundTint="#ADCCE2"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/editTextPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:paddingBottom="15dp"
+                            android:textColor="#ADCCE2"
+                            android:textColorHint="#ADCCE2"
+                            android:backgroundTint="#ADCCE2" />
+
+                        <TextView
+                            android:id="@+id/textViewFogret"
+                            android:layout_width="wrap_content"
+                            android:layout_height="44dp"
+                            android:paddingLeft="8dp"
+                            android:text="Forget password?"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:paddingBottom="15dp"
+                            android:textColor="#ADCCE2"
+                            android:textColorHint="#ADCCE2"
+                            android:backgroundTint="#ADCCE2"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/buttonLogin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="7dp"
+                            android:text="Login"
+                            android:textAllCaps="false"
+                            android:background="#54abee"
+                            android:textColor="@color/common_google_signin_btn_text_dark_default"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/textViewSignup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="Don't have account? Sign Up"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:textColor="#ADCCE2"
+                            android:textColorHint="#ADCCE2"
+                            android:backgroundTint="#ADCCE2"    />
+
+
+
+
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

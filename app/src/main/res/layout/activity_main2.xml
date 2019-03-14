@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp_SignIn.Main2Activity">
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img"
+
+
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/timg"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="37dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".SignUp_SignIn.Main2Activity">
+
+
+                <RelativeLayout
+                    android:id="@+id/vback"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/IMAGE"
+                        android:layout_width="160dp"
+                        android:layout_height="119dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="16dp"
+                        android:alpha=".65"
+                        android:src="@drawable/paper" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="222dp"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp">
+
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="500dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:backgroundTint="#ADCCE2"
+                            android:text="Your password reset email has been sent "
+                            android:textColor="#ADCCE2"
+                            android:textColorHint="#ADCCE2"
+                            android:textSize="20sp"
+                            app:layout_constraintBottom_toTopOf="@+id/editText"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.505"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.511"
+
+                            />
+
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="388dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:backgroundTint="#ADCCE2"
+                            android:gravity="center"
+                            android:text="Email not recivied?"
+                            android:textColor="#ADCCE2"
+                            android:textColorHint="#ADCCE2"
+                            android:textSize="20sp"
+                            app:layout_constraintBottom_toTopOf="@+id/editText"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.505"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.511" />
+
+
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="7dp"
+                            android:background="#54abee"
+                            android:text="Resend"
+                            android:textAllCaps="false"
+                            android:textColor="@color/common_google_signin_btn_text_dark_default"
+                            android:alpha=".80"
+
+                            android:textSize="20sp" />
+                        <TextView
+                            android:id="@+id/textViewSignup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="Password successfully reset? Login "
+
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:textColor="#ADCCE2"
+                            android:textColorHint="#ADCCE2"
+
+                            android:backgroundTint="#ADCCE2"    />
+
+
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="gone"
+                        android:color="#ADCCE2"
+
+                        />
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

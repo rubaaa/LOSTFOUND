@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Losts</string>
+    <string name="title_activity_home_page">homePage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_page_cate">HomePageCate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_update_profile">UpdateProfileActivity</string>
+    <string name="textstatus">textStatus</string>
+    <string name="desctxt">descTxt</string>
+    <string name="input_placeholder">Write a message</string>
+    <string name="date">Date</string>
+    <string name="post_description_image">post description image</string>
+    <string name="title_activity_my_post_list">MyPostList</string>
+</resources>

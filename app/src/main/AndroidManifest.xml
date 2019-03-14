@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.losts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".my_message"></activity>
+        <activity android:name=".Setting" />
+        <activity
+            android:name=".Posts.MyPostList"
+            android:label="@string/title_activity_my_post_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Post_show" />
+        <activity android:name=".Posts.postsList" />
+        <activity android:name=".Posts.Form" />
+        <activity
+            android:name=".Categories.HomePageCate"
+            android:label="@string/title_activity_home_page_cate" />
+        <activity android:name=".AcivityOne" />
+        <activity android:name=".SignUp_SignIn.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp_SignIn.SignUpActivity" />
+        <activity android:name=".SignUp_SignIn.ForgetPasswordActivity" />
+        <activity android:name=".SignUp_SignIn.Main2Activity" />
+        <activity
+            android:name=".profile.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profile.UpdateProfileActivity"
+            android:label="@string/title_activity_update_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
